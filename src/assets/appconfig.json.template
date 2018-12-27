@@ -1,0 +1,18 @@
+{
+  "remoteServiceBaseUrl": "{REMOTE_SERVICE_BASE_URL}",
+  "appBaseUrl": "{APP_BASE_URL}",
+  "localeMappings": [
+    {
+      "from": "pt-BR",
+      "to": "pt"
+    },
+    {
+      "from": "zh-CN",
+      "to": "zh"
+    },
+	{
+		"from": "he-IL",
+		"to": "he"
+	}
+  ]
+}
