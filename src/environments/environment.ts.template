@@ -2,6 +2,6 @@ export const environment = {
     production: true,
     hmr: false,
     appConfig: 'appconfig{APP_CONFIG}.json',
-    UOLOAD_SERVER_URL: '{UPOLOAD_SERVER_URL}/api/Storage/FileStore?',
-    UOLOAD_SERVER_TEST_URL: '{UPOLOAD_SERVER_URL}/api/Storage/',
+    UOLOAD_SERVER_URL: '{UPLOAD_SERVER_URL}/api/Storage/FileStore?',
+    UOLOAD_SERVER_TEST_URL: '{UPLOAD_SERVER_URL}/api/Storage/',
 };
