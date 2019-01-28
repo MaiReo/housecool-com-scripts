@@ -2,7 +2,7 @@ export const environment = {
     production: true,
     hmr: false,
     appConfig: 'appconfig{APP_CONFIG}.json',
-    SERVER_URL: '{REMOTE_SERVICE_BASE_URL}',
+    SERVER_URL: '{SERVER_URL}',
     UOLOAD_SERVER_URL: '{UPLOAD_SERVER_URL}/api/Storage/FileStore?',
     UOLOAD_SERVER_TEST_URL: '{UPLOAD_SERVER_URL}/api/Storage/',
 };
