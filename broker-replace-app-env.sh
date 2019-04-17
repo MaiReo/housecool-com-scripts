@@ -6,7 +6,6 @@ SIGNALR_SERVER_URL=${SIGNALR_SERVER_URL//\//\\/}
 UPLOAD_SERVER_URL=${UPLOAD_SERVER_URL//\:/\\:}
 UPLOAD_SERVER_URL=${UPLOAD_SERVER_URL//\//\\/}
 rm -rf src/environments/environment*.ts
-rm -rf src/assets/appconfig*.json
 mkdir -p src/environments
 curl -s https://raw.githubusercontent.com/MaiReo/housecool-com-scripts/master/src/environments/broker-environment.ts.template \
   | sed "s/{SERVER_URL}/${SERVER_URL}/g" \
