@@ -1,0 +1,6 @@
+export const environment = {
+  SERVER_URL: `{SERVER_URL}`,
+  SIGNALR_SERVER_URL: `{SIGNALR_SERVER_URL}`,
+  UOLOAD_SERVER_URL: `{UPLOAD_SERVER_URL}/api/Storage/FileStore?`,
+  production: true
+};
